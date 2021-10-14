@@ -3,6 +3,8 @@
 ## Objetivos
 El objetivo base del TP es crear un programa en ensamblador **NASM** que calcule las raíces de una función cuadrática utilizando la fórmula resolvente. Esta función debe ser llamada desde código en C, y ambos archivos deben enlazarse para generar un único ejecutable.
 
+Como un objetivo secundario, no relacionado al anterior, debemos crear un código en ensamblador que recorra un arreglo de números de punto flotante y los multiplique por un valor R.
+
 Para ver en detalle los puntos del TP puede leer el siguiente [PDF](https://github.com/Ging1991/ORGA2_TP1/blob/master/TP%20I%20-%20Formula%20resolvente.pdf)
 ## Ficha técnica
 - Sistema Operativo: Linux 32 bits
@@ -27,6 +29,9 @@ O simplemente llamando al archivo _compilacion.sh_
 ./compilacion.sh;
 ```
 Podrá ver **por consola** el resultado de calcular las raíces puestas por defecto. _Notar que queda pendiente la funcionalidad de recibir los coeficientes A,B y C por parámetro._
+
+En el caso del producto escalar, la ejecución se hace con el IDE **SASM**. No se crea el ejecutable ni se utiliza la terminal.
+
 ## Ejemplo de uso
 Luego de haber clonado el proyecto, abro una terminal en la carpeta raíz donde se ven los siguientes archivos:
 
@@ -41,6 +46,11 @@ Ejecuto el comando de compilación y veo por consola los resultados, en este cas
 2. Coeficiente B -> 7/2
 3. Coeficiente A -> -2
 - Notar también que se creó el archivo raíz, sin extensión, que antes no existía. Ese archivo es el resultado de unir los códigos en ensamblador y C.
+
+Como se comentó anteriormente, para ejecutar el código del producto escalar, únicamente se abre el archivo _producto.asm_ con **SASM** y se corre normalmente, puede ser con **F9** o con el triangulito verde, _tipo play_, de toda la vida.
+
+![Captura 2](/imagenes/tp_captura_3.png)
+
 ## Contribuciones
 No se aceptan **pull request**. Este es un trabajo para entregar a la facultad. Una vez termine el periodo de pruebas ya no se no le hará mantenimiento.
 
