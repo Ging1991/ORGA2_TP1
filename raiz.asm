@@ -3,8 +3,8 @@ extern printf
 section .data
     
     ; Parametros
-    par_a DQ 1.0
-    par_b DQ 3.5
+    par_a DQ  1.0
+    par_b DQ  3.5
     par_c DQ -2.0
     
     ; Variables temporales
