@@ -28,14 +28,18 @@ O simplemente llamando al archivo _compilacion.sh_
 ```
 Podrá ver **por consola** el resultado de calcular las raíces puestas por defecto. _Notar que queda pendiente la funcionalidad de recibir los coeficientes A,B y C por parámetro._
 ## Ejemplo de uso
-Luego de haber clonado el proyecto, abro una terminal en la carpeta raíz donde se ven los siguientes archivos
+Luego de haber clonado el proyecto, abro una terminal en la carpeta raíz donde se ven los siguientes archivos:
+
 ![Captura 1](/imagenes/tp_captura_1.png)
+
 Ejecuto el comando de compilación y veo por consola los resultados, en este caso las raíces son 1/2 y -4.
+
+![Captura 2](/imagenes/tp_captura_2.png)
+
 - Notar que los coeficientes por defecto son:
 1. Coeficiente A -> 1
 2. Coeficiente B -> 7/2
 3. Coeficiente A -> -2
-![Captura 2](/imagenes/tp_captura_2.png)
 - Notar también que se creó el archivo raíz, sin extensión, que antes no existía. Ese archivo es el resultado de unir los códigos en ensamblador y C.
 ## Contribuciones
 No se aceptan **pull request**. Este es un trabajo para entregar a la facultad. Una vez termine el periodo de pruebas ya no se no le hará mantenimiento.
